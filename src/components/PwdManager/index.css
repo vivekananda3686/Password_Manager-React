@@ -1,0 +1,114 @@
+.main-container {
+  background-image: linear-gradient(to Bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin: 10px;
+  /* min-width: 100px; */
+  padding: 10px;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5763a5;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.image-1 {
+  height: 6vh;
+  width: 10vw;
+  margin: 10px;
+}
+
+.image-2 {
+  height: 40vh;
+  width: 30vw;
+}
+
+.image-3 {
+  height: 3vh;
+  width: 3vw;
+}
+
+input {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 20px;
+  color: black;
+  min-height: 40px;
+}
+
+.input-card {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 70px;
+  position: absolute;
+  right: 65%;
+}
+
+.second-container {
+  background-color: #5763a5;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.all-pwd-cont-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.pwd-count-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.password-list {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+.count-para {
+  margin-left: 17px;
+}
+
+.show-password {
+  position: absolute;
+  right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-pwd {
+  text-align: center;
+  margin: 20px;
+}

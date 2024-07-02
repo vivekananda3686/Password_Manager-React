@@ -1,0 +1,47 @@
+.comment-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.pwd-details-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  margin: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #f8fafc;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.first-char {
+  background-color: aquamarine;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.pwd-padd {
+  margin: 7px;
+}
+
+.stars-image {
+  height: 20px;
+  width: 30px;
+}
